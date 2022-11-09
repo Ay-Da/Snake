@@ -1,0 +1,51 @@
+
+html {
+    height: 100%;
+}
+    body {
+    background: linear-gradient(to bottom, #7fc5c9, #deabbe);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-left: 0 ;
+}
+
+canvas {
+    margin-top: 2rem;
+     padding-left: 0;
+     padding-right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     border: 2px solid blueviolet;
+ 
+}
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+h3 {
+    color:blue;
+    font-size: 2rem;
+    margin: 0.3rem;
+}
+li {
+    display: inline-block;
+    
+    
+}
+li:nth-child(2) {
+    padding-left: 3rem;
+}
+
+footer {
+    background-color:#7fc5c9;
+    color: blueviolet;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
